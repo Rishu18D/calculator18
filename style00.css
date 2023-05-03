@@ -1,0 +1,85 @@
+body {
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  
+  .math {
+    margin: 0 auto;
+    width: 350px;
+  }
+  
+  .value {
+    background-color: #0F0F0F;
+    border: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 20px;
+    text-align: right;
+    width: 100%;
+  }
+  
+  .num {
+    background-color: #212121;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 60px;
+  }
+  
+  .num:hover {
+    background-color: #313131;
+  }
+  
+  .clear {
+    background-color: #EF5350;
+  }
+  
+  .sum {
+    background-color: #42A5F5;
+  }
+  
+  .minus {
+    background-color: #42A5F5;
+  }
+  
+  .divide {
+    background-color: #42A5F5;
+  }
+  
+  .multiply {
+    background-color: #42A5F5;
+  }
+  
+  .reminder {
+    background-color: #42A5F5;
+  }
+  
+  .equal {
+    background-color: #42A5F5;
+  }
+  
+  @media (max-width: 768px) {
+    .math {
+      width: 90%;
+    }
+    .num {
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      width: 50px;
+    }
+    .value {
+      font-size: 24px;
+      padding: 10px;
+    }
+  }
+  
